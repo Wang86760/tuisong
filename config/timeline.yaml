@@ -276,6 +276,7 @@ presets:
           push: false              # 不限制推送次数
 
     # 工作日使用三段式推送；周末使用增量自由模式
+        analyze: true
     day_plans:
       workday:
         periods: ["morning_briefing", "noon_update", "closing_summary"]
