@@ -234,11 +234,11 @@ display:
   regions:
     new_items: true # 新增热点区域：含热榜新增 + RSS 新增（true=显示, false=隐藏）
     hotlist: true # 热榜区域：关键词匹配 / AI 智能筛选（true=显示, false=隐藏）
-    rss: true # RSS 订阅区域（true=显示并分析, false=隐藏并跳过分析）
-    standalone: true # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
+    rss: false # RSS 订阅区域（true=显示并分析, false=隐藏并跳过分析）
+    standalone: false # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
     ai_analysis: true # AI 分析区域（true=显示, false=隐藏）
   standalone:
-    platforms: ["zhihu","wallstreetcn-hot","cls-hot","thepaper","toutiao"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
+    platforms: ["wallstreetcn-hot","cls-hot","thepaper"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
     rss_feeds: ["yahoo-finance","ruanyifeng","hacker-news"] # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                                # 每个源最多展示条数（0=不限制）
 
